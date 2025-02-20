@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 16px;
+    font-family: 'Lora', serif;
+}
+
+/* Verification Box */
+.verification-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #d1d5db;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Logo and Title */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.logo {
+    height: 64px;
+    margin-right: 16px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1; /* Keeps text compact */
+    gap: 0px; /* Ensures minimal spacing */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900; /* Makes "DELTA CHI" extra bold */
+    color: #CA3D31;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0px; /* Removes extra space below */
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    font-family: 'Lora', serif;
+    margin-top: 0px; /* Eliminates unnecessary spacing */
+}
+
+
+/* Headings & Text */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #CA3D31;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #4b5563;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* Verification Code */
+.verification-code {
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: #F1BD19;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+/* Notes */
+.note {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 24px 0;
+}
+
+.expiration {
+    font-size: 14px;
+    color: #6b7280;
+}
